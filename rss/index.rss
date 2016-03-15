@@ -1,0 +1,156 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Human Experience</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Tue, 15 Mar 2016 03:24:38 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>TL;DR 001</title><description>&lt;h1 id="tldr001"&gt;TL;DR 001&lt;/h1&gt;
+
+&lt;p&gt;Welcome to the first ever issue of TL;DR. TL;DR is a weekly newsletter where we simply give a TL;DR for some of the best tech articles and blog posts. We cover a wide range of subjects but we try keep a narrow focus and&lt;/p&gt;</description><link>http://localhost:2368/tl-dr-001/</link><guid isPermaLink="false">0a5a57ea-7079-46b9-a05d-a47720eb827d</guid><category>Design</category><category>Code</category><dc:creator>Andrew Solomon</dc:creator><pubDate>Tue, 15 Mar 2016 03:00:02 GMT</pubDate><content:encoded>&lt;h1 id="tldr001"&gt;TL;DR 001&lt;/h1&gt;
+
+&lt;p&gt;Welcome to the first ever issue of TL;DR. TL;DR is a weekly newsletter where we simply give a TL;DR for some of the best tech articles and blog posts. We cover a wide range of subjects but we try keep a narrow focus and subjective mind when discussing those topics.&lt;/p&gt;
+
+&lt;h3 id="apple"&gt;APPLE&lt;/h3&gt;
+
+&lt;p&gt;Apple is said to release a new 9.7" iPad Pro, and a 4" iPhone SE. The iPhone SE will pack similar features to the iPhone 6, yet maintaining a size equivalent to the iPhone 5. The Apple Event will take place at 10am on March 21st, 2016. &lt;br&gt;
+&lt;a href="http://www.apple.com/apple-events/march-2016/"&gt;http://www.apple.com/apple-events/march-2016/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Apple created a new Twitter handle( @AppleSupport ) just for handling support. Apple posts many tidbits about how to use various Apple products and software. This is accompanied by a shiny new website dedicated to customer support. Its great to see Apple being more open.&lt;/p&gt;
+
+&lt;h3 id="swift"&gt;SWIFT&lt;/h3&gt;
+
+&lt;p&gt;Tutorials from Ray Wenderlich are always well written, and easy to follow. In this article Ray walks us through creating an Xcode Playground where he has a build a tiny framework for creating SVG's. He uses only Enums, Stucts, and Classes to construct the framework, giving us great pointers and scenarios in which to use these specific value types. &lt;br&gt;
+&lt;a href="https://www.raywenderlich.com/119881/enums-structs-and-classes-in-swift"&gt;https://www.raywenderlich.com/119881/enums-structs-and-classes-in-swift&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;IBM has dedicated tons of resources towards the Swift on Linux effort. They have put together a great looking Swift Package Catalog. You can think of this as a npmjs.com for Swift packages. &lt;br&gt;
+&lt;a href="https://swiftpkgs.ng.bluemix.net"&gt;https://swiftpkgs.ng.bluemix.net&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id="functionalprogramming"&gt;FUNCTIONAL PROGRAMMING&lt;/h3&gt;
+
+&lt;p&gt;I've never heard of Tabris.js before this post, but I'm happy I know what it is now. Tabris is a Javascript framework that allows you to write a single Javascript codebase for Android, iOS, and Windows.  All of the examples in the Tabris repository are written in an imperative way. The author successfully attempts to rewrite one of the examples in a declarative manner. This is a great resource for understanding the differences in imperative and declarative writing styles. &lt;br&gt;
+&lt;a href="http://eclipsesource.com/blogs/2016/02/29/tabris-js-declarative-ui-in-100-lines-of-functional-programming"&gt;http://eclipsesource.com/blogs/2016/02/29/tabris-js-declarative-ui-in-100-lines-of-functional-programming&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Tyler is actually teaching a React.JS program. This article happens to be snippet of his React.JS Program. Tyler shows us how we can use pure functions within react to make our code even more composable. This falls within the recent trend of UI's becoming more functional and composable. Be sure to checkout Tyler's React.JS Fundamentals as well, a great learning resource for beginners. &lt;br&gt;
+&lt;a href="http://tylermcginnis.com/building-user-interfaces-with-pure-functions-and-function-composition-in-react-js"&gt;http://tylermcginnis.com/building-user-interfaces-with-pure-functions-and-function-composition-in-react-js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The Elm Architecture has fully inspired this Medium blog post.  All UI's in Elm are composed using 3 pure functions: init(); update(); view();  The author here tries to directly port these ideas of functional composition over to Javascript using Ramda and Flyd libraries. He uses Ramda for its built in curried functions, and uses Flyd for observables streams. He's able to construct an Elmish architecture in JS, but this is more of a proof of concept rather than a best practice. &lt;br&gt;
+&lt;a href="https://medium.com/@chetcorcos/elmish-functional-programming-in-javascript-50995f1d4b9e#.xp2lf7lv7"&gt;https://medium.com/@chetcorcos/elmish-functional-programming-in-javascript-50995f1d4b9e#.xp2lf7lv7&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id="react"&gt;REACT&lt;/h3&gt;
+
+&lt;p&gt;Bonnie gives us a great general overview of what React Native in as few words as I've ever seen. In short; with React Native you can use a single Javascript codebase to create both Android and iOS applications without comprise of quality or performance. This is a short read, so check it out and try to see if you can get React Native installed and build a "Hello World" app. &lt;br&gt;
+&lt;a href="http://www.infoq.com/articles/react-native-introduction"&gt;http://www.infoq.com/articles/react-native-introduction&lt;/a&gt; &lt;br&gt;
+&lt;a href="https://facebook.github.io/react-native/docs/getting-started.html"&gt;https://facebook.github.io/react-native/docs/getting-started.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is an article that was much needed. A Step-By-Step method of how to reason with a React-Redux app.  This Step-By-Step process is very scientific, in the fact that it focuses to systematically approach all components in a React-Redux app in an identical way.  I will certainly reference this article for every React-Redux app I build. &lt;br&gt;
+&lt;a href="https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.765k2m1ay"&gt;https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a#.765k2m1ay&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I love this article. It contains buzzwords like Universal and Isomorphic Javascript, but don't let that deter you from enjoying this piece. The author gives a completely biased list( in good manner ) of core JS libraries you should invest in.  The usual suspects are found here including; React, Babel, Redux, and ESLint. He also discusses the go-to testing frameworks you should use. In all this is a great overview of the 2016 JS landscape, and there a lots of great links here so go clicking around. &lt;br&gt;
+&lt;a href="https://medium.com/javascript-and-opinions/state-of-the-art-javascript-in-2016-ab67fc68eb0b"&gt;https://medium.com/javascript-and-opinions/state-of-the-art-javascript-in-2016-ab67fc68eb0b&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id="ios"&gt;iOS&lt;/h3&gt;
+
+&lt;p&gt;A non-traditional approach to the View-Controller life-cycle. A great read. &lt;br&gt;
+&lt;a href="http://irace.me/lifecycle-behaviors"&gt;http://irace.me/lifecycle-behaviors&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Marcus gives us a great inside look at how he and his coworkers @Atol are using CloudKit. In short they leverage the power of CKAssets, CKRecords, and CKFetchRecordsOperation to fully optimize the way they handle images. &lt;br&gt;
+&lt;a href="https://medium.com/frozen-fire-studios/working-with-images-in-cloudkit-1e3579c67558#.b3fdjxubq"&gt;https://medium.com/frozen-fire-studios/working-with-images-in-cloudkit-1e3579c67558#.b3fdjxubq&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id="design"&gt;DESIGN&lt;/h3&gt;
+
+&lt;p&gt;Didn't know this was a thing. Brian Lovin from the Design Details podcast has web page dedicated to discuss the "Design Details" of some of Silicons Valleys favorite apps.  In the most recent breakdown, Brian explores Stripes dashboard. Enjoy the post is well written and full of awesome GIFS which really help drive Brian's critique. &lt;br&gt;
+&lt;a href="http://www.brianlovin.com/design-details/stripe-dashboard-for-ios​"&gt;http://www.brianlovin.com/design-details/stripe-dashboard-for-ios​&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Sketchapp's online resources seem to get better everytime we turnaround.  Sketchapp has put up some fabulous documentation on how to use the app. It goes into to technical and fundamental details to explain each and every tool and feature in Sketch. Check out this detailed documentation in Pixel Precision in Sketch full of images and video to help drive documentation. &lt;br&gt;
+&lt;a href="http://sketchapp.com/learn/documentation/13-other/5-pixel-precision.html"&gt;http://sketchapp.com/learn/documentation/13-other/5-pixel-precision.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is actually not a rant, even though it contains some profanity and a little belittling. It can be seen as a wake up call for Twitter. The author here list 23 different ways Twitter could enhance its service for abuse prevention, and overall giving great tidbits on how Twitter could extend the power and limits of its API. I'll keep it short here but this is a MUST READ. &lt;br&gt;
+&lt;a href="https://medium.com/art-marketing/putting-out-the-twitter-trashfire-3ac6cb1af3e#.so0dvbwfo"&gt;https://medium.com/art-marketing/putting-out-the-twitter-trashfire-3ac6cb1af3e#.so0dvbwfo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You'll want to bookmark this or save this to your Instapaper after reading. Some great links embedded here and is certainly a piece you can keep going back to when developing and designing your next product. Comprehensive articles of the current landscape will always help you stay up to date with modern the web, but in this case it's all about web typography.  There is a ton achieve now with modern browsers and the power of Javascript, and yes; Performance is considered in the post as well. &lt;br&gt;
+&lt;a href="https://www.smashingmagazine.com/2016/03/meaningful-web-typography"&gt;https://www.smashingmagazine.com/2016/03/meaningful-web-typography&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/TL_DR" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/TL_DR', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"&gt;&lt;p&gt;&lt;label for="tlemail"&gt;Enter your email address&lt;/label&gt;&lt;/p&gt;&lt;p&gt;&lt;input type="text" style="width:140px" name="email" id="tlemail"&gt;&lt;/p&gt;&lt;input type="hidden" value="1" name="embed"&gt;&lt;input type="submit" value="Subscribe"&gt;&lt;p&gt;&lt;a href="https://tinyletter.com" target="_blank"&gt;powered by TinyLetter&lt;/a&gt;&lt;/p&gt;&lt;/form&gt;&lt;/p&gt;</content:encoded></item><item><title>Custom Fonts in Xcode</title><description>&lt;p&gt;&lt;img src="http://www.designerspics.com/wp-content/uploads/2015/08/evening_tea__free_photo.jpg" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;Designing in XCode with Storyboards is a very visual experience, and makes some aspects of mobile design a lot easier than having to design strictly in code.  Most designers coming from the web understand that design implementation comes mostly from writing code. Whether that code be HTML, CSS, or Javascript;&lt;/p&gt;</description><link>http://localhost:2368/custom-fonts-in-xcode/</link><guid isPermaLink="false">8e28617e-111d-489b-8e5b-322e3e6d5678</guid><category>Design</category><category>ios</category><category>xcode</category><category>typography</category><dc:creator>Andrew Solomon</dc:creator><pubDate>Wed, 11 Nov 2015 01:36:27 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="http://www.designerspics.com/wp-content/uploads/2015/08/evening_tea__free_photo.jpg" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;Designing in XCode with Storyboards is a very visual experience, and makes some aspects of mobile design a lot easier than having to design strictly in code.  Most designers coming from the web understand that design implementation comes mostly from writing code. Whether that code be HTML, CSS, or Javascript; learning to code in order to design is a hot topic and beyond the scope of this article.  But in iOS we have choices. In iOS we can decide to do most of our UI design using two tools known as Interface Builder and Storyboards.&lt;/p&gt;
+
+&lt;p&gt;Adding custom fonts in Xcode is not a straightforward process.  The process of adding fonts can be bit of a tedious task and can be a real pain for designers. In this article we will walkthrough all the necessary steps you’ll have to take in order to add your custom fonts to Xcode.&lt;/p&gt;
+
+&lt;h3 id="availablefontsinxcode"&gt;Available Fonts in Xcode&lt;/h3&gt;
+
+&lt;p&gt;Xcode has a pretty comprehensive list of font choices to choose from. The list of available fonts are all safe and will properly render on any iOS and MacOS device. But this list is limited and there may arise a time where you would want to add that brand new font that you’ve been dying to use in your next iOS app.  So how exactly would that be done? How do we add custom fonts to XCode?&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3 id="letsgotowork"&gt;Lets go to work&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src="http://36.media.tumblr.com/374e86d0a49f09ef812561e506dc40a3/tumblr_nvnlrrvsPE1u60tx6o1_1280.jpg" alt=""&gt;&lt;/p&gt;
+
+&lt;h5 id="1manuallyaddfontstoxcode"&gt;1. Manually add fonts to XCode&lt;/h5&gt;
+
+&lt;p&gt;Adding the initial font files in Xcode is actually pretty straightforward process. The tedious part comes later on. We can simply add a font-file in Xcode by clicking the &lt;strong&gt;+&lt;/strong&gt; icon at the bottom of &lt;strong&gt;File Inspector&lt;/strong&gt;. It doesn’t matter where you place the file in your file directory.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2015/11/Screen-Shot-2015-11-08-at-3-23-45-PM.png" alt="Add Files Using File Inspector"&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;NOTE: If you want the different variations of a font like &lt;em&gt;Bold&lt;/em&gt; or &lt;em&gt;Italic,&lt;/em&gt; you have to add the &lt;em&gt;Bold&lt;/em&gt; or &lt;em&gt;Italic&lt;/em&gt; variants to your project file directory in addition.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2015/11/Screen-Shot-2015-11-08-at-3-26-23-PM.png" alt="Find The Appropriate Font Files"&gt;&lt;/p&gt;
+
+&lt;h5 id="2ensurefontsareaddedtotarget"&gt;2. Ensure fonts are added to &lt;strong&gt;Target&lt;/strong&gt;&lt;/h5&gt;
+
+&lt;p&gt;After adding the files to your project directory you will be prompted with a window dialog. At the bottom of this window you will se a section for &lt;strong&gt;Add To Targets.&lt;/strong&gt; Ensure that is selected&lt;/p&gt;
+
+&lt;h5 id="3ensurefontsareaddedtobuildphases"&gt;3. Ensure fonts are added to ‘&lt;em&gt;Build Phases&lt;/em&gt;’&lt;/h5&gt;
+
+&lt;p&gt;Select your Xcode project file. In this window select the &lt;strong&gt;Build Phases&lt;/strong&gt; pane.  You should now see an enclosure near the bottom of the window titled &lt;strong&gt;Copy Bundle Resources.&lt;/strong&gt; Open this enclosure and ensure that your font files are included in the list.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2015/11/Screen-Shot-2015-11-08-at-3-27-50-PM.png" alt=""&gt;&lt;/p&gt;
+
+&lt;h5 id="4addfontstoinfoplist"&gt;4. Add fonts to ‘&lt;em&gt;Info.plist&lt;/em&gt;’&lt;/h5&gt;
+
+&lt;p&gt;Okay, now the hard part. Navigate to your &lt;strong&gt;Info.plist&lt;/strong&gt;. You’ll have to add a new row to your &lt;strong&gt;Info.plist&lt;/strong&gt; file. You can add a new row by simply hovering over the last row in the list a clicking the &lt;strong&gt;+&lt;/strong&gt; sign. In the newly added row type the text &lt;strong&gt;Fonts provided by application&lt;/strong&gt; which should autocomplete after about the 5th character. This will be an array of font-file names that you want to use in your app. Starting with &lt;strong&gt;Item 0&lt;/strong&gt; manually type the name of the font-file in the &lt;strong&gt;Value&lt;/strong&gt; column. Repeat this step if you plan on adding more than one font. For instance; if you have 3 custom fonts that you want to use &lt;strong&gt;Item 0&lt;/strong&gt; through &lt;strong&gt;Item 2&lt;/strong&gt; should contain the three font-files that you want to use.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2015/11/Screen-Shot-2015-11-08-at-3-31-19-PM.png" alt=""&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;NOTE: The names of the font-files must be the exact name of the files that you added to your project file directory. A failure to do this will result in an erroneous font-file and we don’t want to go down that route.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Thats pretty much it. We added the appropriate files. Ensured they were added to our build targets, and now we just need a way to reference them. We can reference a font-file via code, but lets take the visual designer approach and reference our objects and font-files using &lt;em&gt;Interface Builder&lt;/em&gt; and &lt;em&gt;Storyboards&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h5 id="5draganddropalabeltostoryboard"&gt;5. Drag and drop a ‘&lt;em&gt;Label&lt;/em&gt;’ to ‘&lt;em&gt;Storyboard&lt;/em&gt;’&lt;/h5&gt;
+
+&lt;p&gt;All text objects in &lt;em&gt;Interface Builder&lt;/em&gt; have the ability to be customized. Using the &lt;em&gt;Object Library&lt;/em&gt; located at the bottom of &lt;em&gt;Interface Builder&lt;/em&gt; search for a &lt;em&gt;Label&lt;/em&gt; object. You will see the Label object populate the &lt;em&gt;Object Library&lt;/em&gt;. Drag and drop the label onto &lt;em&gt;Storyboard&lt;/em&gt;. With the Label object selected in &lt;em&gt;Storyboard&lt;/em&gt;, you should now see all the attributes for the &lt;em&gt;Label&lt;/em&gt; object including the &lt;strong&gt;Font&lt;/strong&gt; attribute.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2015/11/Screen-Shot-2015-11-10-at-8-17-03-PM.png" alt=""&gt;&lt;/p&gt;
+
+&lt;h5 id="6choosecustomfont"&gt;6. Choose ‘&lt;em&gt;Custom Font&lt;/em&gt;’&lt;/h5&gt;
+
+&lt;p&gt;Select the &lt;em&gt;T&lt;/em&gt; within the &lt;strong&gt;Font&lt;/strong&gt; dropdown and you will be presented with the a popup which gives you the ability to set &lt;em&gt;Font, Family, Weight, and Size&lt;/em&gt;. Select &lt;strong&gt;Font&lt;/strong&gt; and then immediately select &lt;strong&gt;Custom&lt;/strong&gt;. Now select Family and search for the custom font you added.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2015/11/Screen-Shot-2015-11-10-at-8-18-10-PM.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;Thats it! You've added and custom font to XCode without adding a ounce of code.&lt;/p&gt;</content:encoded></item><item><title>Who's Tracking You</title><description>&lt;p&gt;Online news and blog post articles comes at a high cost for your average web surfer. Not only are you downloading close to 5mb of data every time you visit &lt;a href="http://www.bloomberg.com"&gt;Bloomberg&lt;/a&gt;, but you are also victim to the latest and greatest tracking services. Yep thats right! Just about every website&lt;/p&gt;</description><link>http://localhost:2368/whos-tracking-you/</link><guid isPermaLink="false">355589e8-0287-4a05-bdd3-6490b9c63117</guid><dc:creator>Andrew Solomon</dc:creator><pubDate>Mon, 17 Aug 2015 18:22:18 GMT</pubDate><content:encoded>&lt;p&gt;Online news and blog post articles comes at a high cost for your average web surfer. Not only are you downloading close to 5mb of data every time you visit &lt;a href="http://www.bloomberg.com"&gt;Bloomberg&lt;/a&gt;, but you are also victim to the latest and greatest tracking services. Yep thats right! Just about every website you go to is tracking you in some sort of fashion.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2015/08/Screen-Shot-2015-08-17-at-2-07-36-PM.png" alt="Alt text"&gt;&lt;/p&gt;
+
+&lt;p&gt;What if you don't want to be tracked. Or what if you wanted to know who was tracking you. Well I found an awesome solution for both cases. Just last week I found this fantastic Safari extension known as &lt;a href="https://www.ghostery.com/en/"&gt;Ghostery&lt;/a&gt; . Once you install Ghostery you will be able to both see who is tracking you, and block the trackers if you want. Since adding Ghostery it has truly opened up a new part of the web for me. As a web developer I'm always interested in what plugins and services that developers include in their websites. Ghostery is a great and easy way to see whats going-on on the other side of the wire.&lt;/p&gt;
+
+&lt;p&gt;So how does this opting out of ads and tracking services effect the status quo? The answer to this question may be better answered in another post, but the short answer is clear. Advertisers are going to be forced to come up with more clever and convenient ways of tracking clients. Services like Ghostery will continue to grow and become more and more popular. In return advertisers can expect to see a major decrease in ad revenue.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2015/08/Screen-Shot-2015-08-17-at-2-22-39-PM.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;Tools like Ghostery immedietly puts the power of the open web back into the hands of the clients, and allows us to choose which services we'll allow to track us. For the most part I allow tracking services like social media share buttons, and specific beacons. Since using Ghostery and blocking ads everyday it appears that my connections speeds are just a tad faster, and it gives me a stronger peace of mine when I'm on a site I've never been to before.&lt;/p&gt;</content:encoded></item><item><title>Destroy and Rebuild</title><description>design, retrofit, retrofitting, engine, technology, spitfire, dslr, Mk3, chris heroine, In the Hall of the Mountain King</description><link>http://localhost:2368/destroy-and-rebuild/</link><guid isPermaLink="false">834542a0-14d7-4623-9ee6-95df21b01d7e</guid><dc:creator>Andrew Solomon</dc:creator><pubDate>Sun, 09 Aug 2015 11:06:48 GMT</pubDate><content:encoded>&lt;p&gt;Surely the deconstruction process of man made things can be just as educational as the construction process. Mechanics in both the auto and computer industries spend countless hours manually destroying and rebuilding assemblies. &lt;br&gt;
+This is a craft that usually goes unseen and most consumers of automobiles and personal computers hardly get a clear visualization of the in-depth process in &lt;em&gt;retrofitting&lt;/em&gt; mechanical systems.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Retrofitting refers to the addition of new technology or features to older systems.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=daVDrGsaDME"&gt;&lt;img src="http://localhost:2368/content/images/2015/08/1978_Triumph_Spitfire_1500_TC_photo-1.JPG" alt="" title=""&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Chris Herridge buys a stripped down engine off eBay with the goal to replace his existing engine for his Triumph Spitfire Mk3. Using Adobe Premiere and snapping over 3000 photos on his DSLR, Chris manages to captivate the &lt;em&gt;destroy and rebuild&lt;/em&gt; process masterfully.&lt;/p&gt;
+
+&lt;iframe width="420" height="315" src="https://www.youtube.com/embed/daVDrGsaDME" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;Music&lt;/strong&gt;:
+Peer Gynt Suite No. 1, Op. 46: IV. In the Hall of the Mountain King Metropolitan Symphony Orchestra &amp;amp; James Walker &lt;br&gt;
+&lt;a href="https://itun.es/us/IVnV2?i=918350107"&gt;https://itun.es/us/IVnV2?i=918350107&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
